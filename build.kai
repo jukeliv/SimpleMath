@@ -1,0 +1,4 @@
+output = "sm"
+files = "src\lexer.c src\parser.c src\interpreter.c src\main.c"
+
+cmd("gcc -o" output files "-O2")
